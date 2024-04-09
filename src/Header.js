@@ -13,6 +13,7 @@ function Header({ onCartClick }) {
     <nav className="navbar navbar-expand-lg navbar-light bg-light">
       <div className="container">
         <Link className="navbar-brand" to="/">Basic Ecommerce Site</Link>
+        <Link className="nav-link" to="/add-product">Add Product</Link>
         <button className="btn btn-link" onClick={handleClick}>
           {showCartIcon ? (
             <i className="fas fa-shopping-cart"></i>
